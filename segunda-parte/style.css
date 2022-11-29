@@ -1,0 +1,176 @@
+:root{
+    --cinza: rgb(153, 153, 153);
+    --azul-escuro: rgb(24, 16, 90);
+    --roxo-claro: rgb(118, 99, 226);
+    --roxo: rgb(106, 64, 161);
+}
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+/* global configs */
+
+
+@media (max-width: 768px){
+    .titulo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        text-align: center;
+    }
+
+    .header img{
+        height: 3rem;
+
+        margin: 0rem 0rem 2rem 0rem;
+    }
+}
+
+/* container */
+
+.container-geral{
+    width: 50rem;
+}
+
+/* Latest Projects OK */
+
+.traco-roxo{
+    height: .3rem;
+    width: 2rem;
+
+    margin: 5rem 0rem 2rem 0rem;
+
+    background-color: var(--roxo-claro);
+}
+
+.latest-projects{
+    display: flex;
+    justify-content: center;
+
+    margin: 0rem 0rem 8rem 0rem;
+}
+
+.titulo p{
+    line-height: 2rem;
+
+    color: var(--cinza);
+}
+
+.titulo h2{
+    margin: 0rem 0rem 1rem 0rem;
+
+    color: var(--azul-escuro);
+    font-weight: bold;
+}
+
+.titulo h4{
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 0rem 0rem 1rem 0rem;
+}
+
+.titulo h5{
+    line-height: 2rem;
+
+    color: var(--cinza);
+}
+
+.titulo h6{
+    line-height: 2rem;
+
+    color: var(--roxo);
+}
+
+
+.what-expect{
+    display: flex;
+    justify-content: center;
+
+    margin: 0rem 0rem 8rem 0rem;
+}
+
+.titulo2 p{
+    line-height: 2rem;
+
+    color: var(--cinza);
+}
+
+.titulo2 h2{
+    margin: 0rem 0rem 1rem 0rem;
+
+    color: var(--azul-escuro);
+    font-weight: bold;
+}
+
+
+.imagens h4{
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 0rem 0rem 1rem 0rem;
+}
+
+
+.imagens p{
+    line-height: 2rem;
+
+    color: var(--cinza);
+}
+
+
+
+
+
+
+
+
+/* caracteristicas do site */
+
+.itens{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.coluna{
+    font-size: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+.itens p{
+    line-height: 2rem;
+
+    color: var(--cinza);
+}
+
+.itens h3{
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 0rem 0rem 1rem 0rem;
+}
+
+.itens h4{
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 0rem 0rem 1rem 0rem;
+}
+
+.itens h5{
+    line-height: 2rem;
+
+    color: var(--cinza);
+}
+
+.coluna img{
+    height: 2.5rem;
+
+    margin: 0rem 0rem 2rem 0rem;
+}
